@@ -1,0 +1,33 @@
+/* #homeBody {
+  background-color: var(--ltgreen);
+  height: 180vh;
+} */
+
+body {
+  background-color: var(--tanly);
+  height: 180vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: right;
+  width: 45%;
+  padding: 10px;
+  padding-left: 30px;
+  height: 400px;
+  margin: 20px auto;
+  margin-right:30px;
+  margin-bottom: 70px;
+  background-color: var(--browngrey);
+  line-height:2;
+  color: var(--white);
+}
+
+.dev-image {
+  background: url('./cesar-pic.jpg');
+  background-size: cover;
+  background-position: center;
+}
