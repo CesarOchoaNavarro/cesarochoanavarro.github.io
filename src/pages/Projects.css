@@ -1,0 +1,10 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: var(--tanly) no-repeat;
+  background-size: cover;
+}
+
+.project-body h2 {
+    text-align: center;
+}
