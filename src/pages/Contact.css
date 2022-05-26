@@ -6,3 +6,12 @@ body {
 .contact-body h2 {
     text-align: center;
 }
+
+.col {
+  margin: 15px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+}
