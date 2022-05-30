@@ -13,8 +13,9 @@ function About() {
             <p>Computer Science Major - Associate Software Engineer</p>
             <p>
               Hi, I'm Cesar and I am a fourth year Computer Science student at Portland State University.
-              My interests outside of school include playing soccer/futsal, working out, hanging out with
-              friends and cooking. I recently accepted a position as a Associate Software Engineer and am excited
+              I am experienced in various programming languages like Python, C++, Java, and more as well as experience in other areas like Pandas, NumPy, and Keras to name a few.
+              I’m looking to further my programming experience and knowledge through connections and learning experiences.
+              I recently accepted a position as a Associate Software Engineer and am excited
               for what lies ahead!
             </p>
           </div>
