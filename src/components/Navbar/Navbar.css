@@ -1,6 +1,5 @@
 .NavbarItems {
-    /* background: var(--greenleaf); */
-    background: black;
+    background: var(--tanly);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -16,7 +15,7 @@
 }
 
 .navbar-logo {
-    color: var(--tanly);
+    color: var(--browngrey);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -39,17 +38,18 @@
 }
 
 .nav-links {
-    color: var(--tanly);
+    color: var(--browngrey);
     text-decoration: none;
     padding: 0.5rem 1rem;
     display: flex;
 }
 
 .nav-links:hover {
-    background-color: var(--tanly);
+    background-color: var(--white);
     border-radius: 4px;
     transition: all 0.2s ease-out;
     margin: 0;
+    color: var(--browngrey);
 }
 
 .nav-links-mobile {

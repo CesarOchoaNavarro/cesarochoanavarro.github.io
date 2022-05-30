@@ -2,8 +2,9 @@
   text-align: center;
 }
 .contact-body {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--tanly);
+  color: var(--browngrey);
+  padding-top: 50px;
 }
 
 .col {
@@ -13,7 +14,11 @@
 .btn {
   width: 100%;
   padding: 10px;
-  background-color: var(--tanly);
-  color: var(--black);
+  background-color: var(--browngrey);
+  color: var(--tanly);
   border: none;
+}
+
+#back-info {
+  padding: 30px;
 }

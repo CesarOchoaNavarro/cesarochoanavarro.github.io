@@ -4,8 +4,8 @@ import "./Contact.css";
 class Contact extends Component {
   render() {
     return (
-      <body class="contact-body">
-        <h2>>Contact</h2>
+      <section class="contact-body">
+        <h2>Contact</h2>
 
         <form id="contact">
             <div class="container">
@@ -58,7 +58,7 @@ class Contact extends Component {
 
 
         </form>
-      </body>
+      </section>
     );
   }
 }

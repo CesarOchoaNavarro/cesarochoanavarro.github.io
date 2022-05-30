@@ -2,10 +2,15 @@
   text-align: center;
 }
 
-.fa {
+.project {
+  background-color: var(--tanly);
+  padding-top: 100px;
+}
+
+.card-body .fa {
   color: var(--browngrey);
 }
-.fa:hover {
+.card-body .fa:hover {
   color: var(--browngrey);
 }
 
@@ -15,4 +20,21 @@
 
 .card {
   height: 100%;
+  box-shadow: 0px 10px 15px var(--browngrey);
+}
+
+.card-body {
+  background: var(--tanly);
+  transition: background-color .5s ease-in-out 10ms;
+}
+
+.card-body:hover {
+  background-color: var(--browngrey);
+}
+.card-body:hover h4, .card-body:hover p{
+  color: var(--white);
+}
+
+.card .fa-github {
+  color: var(--browngrey);
 }

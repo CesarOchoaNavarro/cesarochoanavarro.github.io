@@ -1,0 +1,13 @@
+.background {
+    background: var(--tanly);
+    padding: 25px;
+    padding-top: 90px;
+}
+
+.background h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+}

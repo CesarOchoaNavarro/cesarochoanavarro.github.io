@@ -3,9 +3,8 @@ import "./Projects.css";
 
 function Projects() {
   return (
-      <div class="project" id="projects">
-        <h2>>Projects</h2>
-
+      <section class="project" id="projects">
+        <h2>Projects</h2>
         <div class="container">
           <div class="row">
             <div class="col">
@@ -67,7 +66,7 @@ function Projects() {
           </div>
         </div>
 
-      </div>
+      </section>
   );
 }
 

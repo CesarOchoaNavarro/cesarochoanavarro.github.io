@@ -3,20 +3,19 @@ import "./About.css";
 
 function About() {
   return (
-    <div id="home">
+    <section id="home">
       <div class="about-wrap">
         <video src='/videos/backdrop.mp4' alt="background video" autoPlay loop muted/>
         <div class="about">
-          
           <div class="info">
-            
-            <h1>>About</h1>
             <img src="./images/cesar-pic.jpg" alt="Cesar"></img>
             <h3>Cesar Ochoa Navarro</h3>
             <p>Computer Science Major - Associate Software Engineer</p>
             <p>
-              Hi. My name is Cesar Ochoa Navarro and I am a Computer Science Major
-              working as an Associate Software Engineer in Portland, OR.
+              Hi, I'm Cesar and I am a fourth year Computer Science student at Portland State University.
+              My interests outside of school include playing soccer/futsal, working out, hanging out with
+              friends and cooking. I recently accepted a position as a Associate Software Engineer and am excited
+              for what lies ahead!
             </p>
           </div>
 
@@ -32,12 +31,7 @@ function About() {
           ></a>
         </div>
       </div>
-
-      <div class="interests" id="interests">
-        <h2>>Interests</h2>
-      </div>
-
-    </div>
+    </section>
   );
 }
 
