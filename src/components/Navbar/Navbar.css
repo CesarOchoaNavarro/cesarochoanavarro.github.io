@@ -1,22 +1,22 @@
-#root {
-    background-color: var(--tanly);
-}
-
 .NavbarItems {
-    background: var(--greenleaf);
+    /* background: var(--greenleaf); */
+    background: black;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 
     /* THIS CAUSES A GAP UP TOP */
-    margin: 10px;
-    border-radius: 15px;
+    /* margin: 10px;
+    border-radius: 15px; */
 }
 
 .navbar-logo {
-    color: #F4F4F2;
+    color: var(--tanly);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -39,20 +39,17 @@
 }
 
 .nav-links {
-    color: var(--white);
+    color: var(--tanly);
     text-decoration: none;
     padding: 0.5rem 1rem;
+    display: flex;
 }
 
 .nav-links:hover {
-    background-color: var(--olive);
+    background-color: var(--tanly);
     border-radius: 4px;
     transition: all 0.2s ease-out;
     margin: 0;
-}
-
-.fa-bars {
-    color: var(--white);
 }
 
 .nav-links-mobile {
@@ -61,7 +58,15 @@
 
 .menu-icon {
     display: none;
+    
 }
+
+@media screen and (min-width: 300px) and (max-width: 555px) {
+    .NavbarItems {
+        display: none;
+    }
+}
+
 
 @media screen and (max-width: 550px) {
     .NavbarItems {

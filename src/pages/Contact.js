@@ -5,9 +5,9 @@ class Contact extends Component {
   render() {
     return (
       <body class="contact-body">
-        <h2>Contact</h2>
+        <h2>>Contact</h2>
 
-        <form>
+        <form id="contact">
             <div class="container">
                 <div class="row justify-content-around">
                     <div class="col-md-6">
@@ -50,7 +50,7 @@ class Contact extends Component {
                     </div>
 
                     <div class="col col-md-12">
-                        <input type="submit" class="btn btn-success btn-send pt-2 btn-block" value="Send"></input>
+                        <input type="submit" class="btn btn-success btn-send btn-block" value="Send"></input>
                     </div>
                 </div>
             </div>

@@ -1,10 +1,18 @@
-body{
-  margin: 0;
-  padding: 0;
-  background: var(--tanly) no-repeat;
-  background-size: cover;
+.project h2{
+  text-align: center;
 }
 
-.project-body h2 {
-    text-align: center;
+.fa {
+  color: var(--browngrey);
+}
+.fa:hover {
+  color: var(--browngrey);
+}
+
+#frameworks {
+  text-align: center;
+}
+
+.card {
+  height: 100%;
 }

@@ -1,10 +1,9 @@
-body {
-  background-color: var(--tanly);
-  height: 180vh;
-}
-
 .contact-body h2 {
-    text-align: center;
+  text-align: center;
+}
+.contact-body {
+  background-color: var(--black);
+  color: var(--white);
 }
 
 .col {
@@ -14,4 +13,7 @@ body {
 .btn {
   width: 100%;
   padding: 10px;
+  background-color: var(--tanly);
+  color: var(--black);
+  border: none;
 }
